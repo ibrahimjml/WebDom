@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>change color</title>
+    <link rel="stylesheet" href="./icomoon/style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" media="(max-width : 500px)" />
+  </head>
+  <body id="body">
+    <div class="btnscroll">^</div>
+    <header class="myheader">
+      <h1>Web Developer</h1>
+
+      <nav>
+        <ul class="parent">
+          <li id="javak">
+            <p>Section</p>
+            <ul id="hiddenul2" style="display: none;" >
+              <li><a href="#exe1">random videos</a> </li>
+              <li><a href="#exe2">random quotes</a></li>
+              <li><a href="#exe3">congratulation animation</a></li>
+              <li><a href="#exe4"> accordion</a></li>
+              <li><a href="#exe5">digital clock</a> </li>
+              <li><a href="#exe6">slides show</a> </li>
+              <li><a href="#exe7">toggle tabs</a> </li>
+              <li><a href="#exe8">validation form</a> </li>
+            </ul>
+          </li>
+          <li><a href="onlinestore.html"> Store</a></li>
+          <li id="dark" class="mode">change mode</li>
+          <li id="changecolor">
+            change color
+
+            <ul id="hiddenul" style="display: none;" >
+              <li id="headerbg">Header BG</li>
+              <li id="titlebg">Title BG</li>
+              <li id="titlecolor">Title color</li>
+              <li id="sectionbg">section BG</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="sec" class="cont">
+        <h1>Who I am ? </h1>
+
+        <div class="flex">
+          <article class="left-section">
+            <h3>my goal</h3>
+
+            <p>
+              
+              Full Stack Web Developer I have experience with php,mysql and frameworks
+              
+            </p>
+
+            <a
+              id="you"
+              class="youtube"
+              href="https://www.w3schools.com/jsref/obj_event.asp"
+            >
+              youtube
+            </a>
+
+            <a class="facebook" href=""> facebook </a>
+          </article>
+
+          <article class="right-section">
+            <img class="my-img" src="ibrahim2.png" alt="" />
+
+            <h5>Ibrahim Jamal</h5>
+          </article>
+        </div>
+      </section>
+
+      <section id="exe1" class="cont1">
+        <h1>Random Videos</h1>
+
+        <div id="containeriframe" class="parent-iframe">
+          <iframe
+            id="myiframe"
+            src="https://www.youtube.com/embed/_bjzxnatn7M?si=BMkA_XSZNTBW5bAv"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <button id="btn" class="myButton">Random</button>
+      </section>
+      <section id="exe2" class="cont">
+        <h1>Random Quotes</h1>
+        <div id="containerquote">
+          <blockquote class="sidekick">
+            The only thing permanent in life is impermanence.
+            <br />
+            <cite> Thor in Endgame</cite>
+          </blockquote>
+        </div>
+        <button id="btn2" class="myButton">Random</button>
+      </section>
+
+      <section id="exe3" class="cont1">
+        <h1 dir="rtl">javascript congratulations animation</h1>
+
+        <div id="containerheart"></div>
+
+        <button id="btn3" class="myButton">random hearts</button>
+      </section>
+      <section id="exe4" class="cont">
+        <h1>javascript accordion</h1>
+        <div class="containeraccordion">
+          <div class="question1">
+            <div class="parent1">
+              <h2>what is Node.js ?</h2>
+              <span class="plus">+</span>
+            </div>
+            <p class="content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+              vel dicta, itaque eveniet fugit dolor ut eius? Fugit dicta, dolor,
+              omnis ea, blanditiis alias soluta doloribus eveniet repellendus
+              hic delectus.
+            </p>
+          </div>
+        </div>
+        <div class="containeraccordion">
+          <div class="question1">
+            <div class="parent1">
+              <h2>what is Node.js ?</h2>
+              <span class="plus">+</span>
+            </div>
+            <p class="content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+              vel dicta, itaque eveniet fugit dolor ut eius? Fugit dicta, dolor,
+              omnis ea, blanditiis alias soluta doloribus eveniet repellendus
+              hic delectus.
+            </p>
+          </div>
+        </div>
+        <div class="containeraccordion">
+          <div class="question1">
+            <div class="parent1">
+              <h2>what is Node.js ?</h2>
+              <span class="plus">+</span>
+            </div>
+            <p class="content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+              dolor assumenda quasi, consequuntur fugiat, similique possimus
+              maxime repellat eos placeat vel saepe veritatis harum quidem
+              blanditiis. Quae est recusandae illum, repellendus, adipisci
+              laborum odio veniam sint nobis, eaque sequi accusamus natus?
+              Voluptates vero ab ea nisi quod maiores voluptatem consectetur!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="exe5" class="cont1">
+        <h1>Digital Clock</h1>
+        <div id="clockcontainer" class="clockcontainer"></div>
+      </section>
+      <section id="exe6" class="cont">
+        <h1>Slides Show</h1>
+        <div id="container-slide" class="containerslides"></div>
+        <div class="buttons">
+          <button id="pre">&lt;</button>
+          <div class="divnum">
+            <button class="active my-num">1</button>
+            <button class="my-num">2</button>
+            <button class="my-num">3</button>
+            <button class="my-num">4</button>
+            <button class="my-num">5</button>
+          </div>
+          <button id="next">&gt;</button>
+        </div>
+      </section>
+      <section id="exe7" class="cont1">
+        <h1>Toggle Tabs</h1>
+        <div class="alltabs">
+          <button class="mybtn active-btn">Finland</button>
+
+          <button class="mybtn">Denmark</button>
+
+          <button class="mybtn">Switzerland</button>
+        </div>
+        <div class="parent-of-article">
+
+          <article class="fun-facts  active-article">
+            <h2>
+              4 Fun Facts About Finland
+            </h2>
+  
+            <ol>
+              <li>Finland is the world's happiest country</li>
+              <li>Finns are the world's biggest coffee drinkers</li>
+              <li>There are 187,888 lakes in Finland</li>
+              <li>Most Finnish children have two birthday parties</li>
+  
+  
+  
+            </ol>
+  
+          </article>
+  
+          <article class="fun-facts ">
+            <h2>
+              3 Fun Facts About Denmark
+            </h2>
+  
+            <ol>
+              <li>Denmark is the second happiest country in the world</li>
+              <li>Denmark has 444 islands</li>
+              <li>Denmark has The oldest flag in the world</li>
+  
+  
+  
+            </ol>
+  
+          </article>
+  
+          <article class="fun-facts ">
+            <h2>
+              5 Fun Facts About Switzerland
+            </h2>
+  
+            <ol>
+              <li>Switzerland is the third happiest country in the world</li>
+              <li>They Make & Eat a Lot of Chocolate</li>
+              <li>Switzerland Has 7000 Lakes</li>
+              <li>25% of the Population Is Foreign</li>
+              <li>One of the Most Expensive Places to Live In</li>
+  
+  
+            </ol>
+  
+          </article>
+  
+  
+        </div>
+        </article>
+      </section>
+      <section id="exe8" class="cont">
+        <h1>Validation Form</h1>
+        <button class="myButton">validation Form</button>
+      <div class="parent-of-form ">
+          <form action="action_page.php" >
+            <div class="container-form">
+            
+                <h2>Register</h2>
+                <span id="close">&#10006;</span>
+            
+              <div class="parent-user ">
+                <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username" id="username" required>
+                <span class="icon-check-circle"></span>
+                <p>at least 3 characters</p>
+              </div>
+          <div class="parent-user ">
+            
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                <span class="icon-check-circle"></span>
+                <p>please enter a correct email address</p>
+          </div>
+          
+              <div class="parent-user ">
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                <span class="icon-check-circle"></span>
+                <p>password must be 8 characters with 1 upper case letter and 1 number and 1 sympol</p>
+              </div>
+          
+              <div class="parent-user ">
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                <span class="icon-check-circle"></span>
+                <p>password dont match</p>
+              </div>
+              <button type="submit" class="registerbtn">Register</button>
+            </div>
+            </div>
+          </form>
+      </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="follow">
+        <a href="https://www.facebook.com/ibrahim.jam.75" target="_blank"
+          >Facebook</a
+        >
+      </p>
+
+      <p class="design">Designed and developed by Ibrahim Jamal © 2024</p>
+    </footer>
+
+    <script defer src="javascript/1-main.js"></script>
+    <script defer src="javascript/2-section.js"></script>
+    <script defer src="javascript/3-autowriting.js"></script>
+    <script defer src="javascript/4-randomvids&quotes.js"></script>
+    <script defer src="javascript/5-randomhearts.js"></script>
+    <script defer src="javascript/6-accordion.js"></script>
+    <script defer src="javascript/7-digitalclock.js"></script>
+    <script defer src="javascript/8-slidesshow.js"></script>
+    <script defer src="javascript/9-toggletabs.js"></script>
+    <script defer src="javascript/10-validationform.js"></script>
+  </body>
+</html>

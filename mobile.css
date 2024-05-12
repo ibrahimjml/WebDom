@@ -1,0 +1,166 @@
+.facebook, .youtube{
+  width: 66%;
+}
+body{
+  overflow-x: hidden;
+}
+header{
+  margin-bottom: 4px;
+}
+header h1{
+  margin-bottom: 0;
+}
+section{
+  margin-top: 30px;
+}
+#changecolor{
+  width: 30%;
+}
+h1{
+  text-align: center;
+  padding: 10px 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  background-color: #3d4a59;
+  color: #fff;
+  border-radius: 17px;
+}
+.my-img{
+  width: 121px;
+}
+article h5{
+  font-size: 29px;
+}
+.parent{
+  padding-inline: 9px;
+  padding-block: 6px;
+  text-align: center;
+}
+.parent li{
+  width: 20%;
+}
+.mode{
+  padding: 0;
+}
+#java{
+  padding-bottom: 0 !important;
+}
+
+  #hiddenul{
+    transform: translateX(-26px);
+    width: 38%;
+    text-transform: capitalize;
+  }
+  #hiddenul li{
+    width: 90%;
+  }
+
+  #hiddenul2{
+  transform: translateY(-3px);
+  width: 62%;
+  z-index: 60;
+  text-transform: capitalize;
+  margin-top: 6px;
+  }
+  #hiddenul2 li{
+    width: 83%;
+    margin-left: 13px;
+  }
+  #hiddenul2 li:hover {
+    font-weight: 600;
+
+  }
+  #javak p{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 15px;
+    
+  }
+
+  #myiframe{
+    width:350px;
+    height:315px;
+  }
+  .sidekick{
+    font-size: 24px;
+  }
+  .containeraccordion{
+    width: 93%;
+  }
+  .containerslides{
+    width: 98%;
+  }
+  .images-slides{
+    width: 98%;
+  }
+  form{
+  width: 94%;
+  }
+  input[type=text], input[type=password], input[type=email]{
+    width: 100%;
+  }
+  .buttons{
+    width: 333px;
+    margin: 20px auto;
+  }
+.fun-facts ol{
+  line-height: 30px;
+}
+.alltabs{
+  margin-bottom: 11px;
+}
+
+/*===========
+ online store
+ ============ */
+ .item-container{
+  margin-top: 100px;
+  width: 100% ;
+}
+.all-products{
+  width: 100%;
+  /* margin: 30px auto; */
+}
+.price p {
+  width: 26px;
+}
+
+.item-image{
+  gap: 5px;
+  width: 131px;
+}
+.dangr{
+  width: 27px;
+  margin-left: 21px;
+}
+.price{
+  width: 52px;
+  margin-left: 7px;
+}
+.item-image img{
+  width: 80px;
+  height: 80px;
+}
+.quantity-item{
+  width: 108px;
+  margin-right: 3px;
+  gap: 2px;
+}
+.quantity-item p{
+
+  font-size: 19px;
+}
+input[type="number"]{
+  width: 30px;
+}
+.item-image p{
+  font-size: 17px;
+}
+section h1{
+
+  width: 314px;
+}
+header h1{
+  width: 259px;
+}
