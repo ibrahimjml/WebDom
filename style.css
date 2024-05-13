@@ -159,10 +159,9 @@ section {
   margin: 25px 0;
 }
 
-.facebook,
-.youtube {
-  width: 34%;
-  background-color: royalblue;
+.linkedin,
+.github {
+  width: 40%;
   color: #fff;
   margin: 10px auto;
   padding: 8px 16px;
@@ -171,8 +170,11 @@ section {
   text-decoration: none;
 }
 
-.youtube {
-  background-color: rgb(255, 62, 62);
+.linkedin {
+  background-color: royalblue;
+}
+.github{
+  background-color:grey;
 }
 @media (max-width:500px){
   .facebook,
@@ -397,6 +399,12 @@ dwcwecwe ewcew
   font-family: "Nunito";
   display: block;
   margin: 20px auto 0 auto;
+  padding: 10px 5px;
+    width: 14%;
+    font-size: 20px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 7px;
 }
 
 #myiframe,
@@ -578,7 +586,7 @@ dwcwecwe ewcew
 }
 .buttons{
   width: 400px;
-  margin: 36px auto 0 530px;
+  margin: 36px auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -789,7 +797,7 @@ opacity: 0.5;
 }
 /* Full-width input fields */
 input[type=text], input[type=password], input[type=email] {
-  width: 100%;
+  width: 95%;
   padding: 15px;
   margin: 3px 0;
   display: inline-block;

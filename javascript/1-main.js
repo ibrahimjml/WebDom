@@ -124,11 +124,9 @@ document.addEventListener("DOMContentLoaded", function(){
 const btn = document.getElementsByClassName("btnscroll")[0];
 window.onscroll=()=>{
 if(this.scrollY >= 235){
-  btn.style.opacity='1';
-  setTimeout(() => {
-    btn.style.opacity="0";
-  }, 4000)
-  
+  btn.style.opacity='1';  
+}else{
+  btn.style.opacity="0";
 }
 };
 
