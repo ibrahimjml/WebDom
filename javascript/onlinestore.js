@@ -76,9 +76,7 @@ menubar.addEventListener("click",(eo) => {
         truebtn.classList.replace("btn-success","btn-primary");
         truebtn.innerText="Buy";
       }
-     if(!item.getElementsByClassName("btn-primary")[0].getAttribute("disabled")){
-      showitem.remove();
-     }
+  
     })
   
   }
